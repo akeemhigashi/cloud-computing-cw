@@ -1,4 +1,14 @@
 {
+  "name": "cloud-computing-cw",
+  "version": "1.0.0",
+  "description": "Basic Express app for Cloud Computing coursework Phase A",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Akeem Kabia",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.2.1"
   }
