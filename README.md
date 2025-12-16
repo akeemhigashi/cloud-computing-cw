@@ -1,35 +1,27 @@
-# Cloud Computing Coursework
+# Mingle API – Cloud Computing Coursework
 
-## Overview
+This is the backend REST API project for my Cloud Computing coursework (Birkbeck 2025–26). The API allows users to register, authenticate, post messages, and interact with posts (like, dislike, comment) across different topics (Tech, Health, Politics, Sport).
 
-This is the coursework project for the Cloud Computing module (2025/26).  
-It demonstrates the use of cloud-native principles to build, deploy, and manage a Node.js-based web application, focusing on:
+## 🔧 Tech Stack
+- Node.js (v18+)
+- Express
+- MongoDB
+- JWT for authentication
+- Docker (for deployment)
+- Postman (for testing)
 
-- Cloud storage and file upload
-- Use of Docker containers
-- Deployment automation using GitHub Actions
-- Interaction with GCP services (e.g. Cloud Storage, Compute Engine)
-- Infrastructure as code using Terraform
+## 📁 Folder Structure
+/mingle-backend
+├── app.js                # Main server file
+├── models/               # Mongoose schemas
+├── routes/               # (To be added)
+├── package.json          # Dependencies
+├── .env                  # Environment variables (not committed)
+├── Dockerfile            # Docker build file
 
-The project is developed as part of the practical assessment and reflects individual work.
+## 🚀 How to Run Locally
 
----
-
-## Technologies Used
-
-- **Node.js** and **Express** — Web application framework
-- **Git** and **GitHub** — Version control and collaboration
-- **Docker** — Containerisation
-- **GitHub Actions** — CI/CD pipeline
-- **GCP** (Google Cloud Platform) — Cloud provider
-- **Terraform** — Infrastructure as code
-- **cURL/Postman** — API testing
-
----
-
-## Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/cloud_computing-cw.git
-   cd cloud_computing-cw
+1. **Clone the repo**  
+```bash
+git clone https://github.com/akeemhigashi/cloud-computing-cw.git
+cd cloud-computing-cw
